@@ -1,6 +1,6 @@
 {
 	"name": "@ghasemkiani/fetch",
-	"version": "1.0.0",
+	"version": "1.0.1",
 	"description": "HTTP fetch utility",
 	"type": "module",
 	"main": "index.js",

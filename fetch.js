@@ -7,7 +7,7 @@ async function toFetch(url, options) {
 	let searchParams = new URLSearchParams({data});
 	let uRL = new URL(urlWorker);
 	uRL.search = searchParams.toString();
-	console.log(uRL);
+	// console.log(uRL);
 	return await fetch(uRL);
 }
 
