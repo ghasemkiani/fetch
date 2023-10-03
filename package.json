@@ -1,0 +1,24 @@
+{
+	"name": "@ghasemkiani/fetch",
+	"version": "1.0.0",
+	"description": "HTTP fetch utility",
+	"type": "module",
+	"main": "index.js",
+	"scripts": {
+		"test": "node --test"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://gitlab.com/ghasemkiani/fetch.git"
+	},
+	"keywords": [
+		"http",
+		"fetch"
+	],
+	"author": "Ghasem Kiani",
+	"license": "MIT",
+	"bugs": {
+		"url": "https://gitlab.com/ghasemkiani/fetch/issues"
+	},
+	"homepage": "https://gitlab.com/ghasemkiani/fetch#readme"
+}
