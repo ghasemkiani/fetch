@@ -1,11 +1,14 @@
 {
 	"name": "@ghasemkiani/fetch",
-	"version": "1.0.2",
+	"version": "1.0.3",
 	"description": "HTTP fetch utility",
 	"type": "module",
 	"main": "index.js",
 	"scripts": {
-		"test": "node --test"
+		"test": "node --test",
+		"format": "prettier --write .",
+		"lint": "eslint .",
+		"lint:fix": "eslint --fix ."
 	},
 	"repository": {
 		"type": "git",
@@ -20,5 +23,9 @@
 	"bugs": {
 		"url": "https://gitlab.com/ghasemkiani/fetch/issues"
 	},
-	"homepage": "https://gitlab.com/ghasemkiani/fetch#readme"
+	"homepage": "https://gitlab.com/ghasemkiani/fetch#readme",
+	"devDependencies": {
+		"eslint": "^9.9.1",
+		"prettier": "^3.3.3"
+	}
 }
